@@ -60,7 +60,7 @@ header {
 .about-doziealvan {
     background-color: #fff;
     padding: 28px;
-    margin-top: 16px;
+    margin-top: 14px;
     margin-bottom: 16px;
 }
 
@@ -82,7 +82,7 @@ header {
 
 .twitter-logo img {
     width: 20%;
-    padding-top: 60px;
+    padding-top: 64px;
     padding-bottom: 56px;
 }
 
@@ -161,10 +161,13 @@ header {
 .usher-A a {
     background-color: #17db61;
     color: #fff;
-    border-radius: 28px;
+    border-radius: 138px;
     margin-top: 40px;
-    padding: 12px 28px;
+    padding: 15px 32px 14px 32px;
     display: inline-block;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 400;
 }
 
 .spotify p {
