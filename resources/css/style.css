@@ -9,7 +9,6 @@
     background-color: #fffbe5;
     color: #443100;
     font-family: 'IBM Plex Mono', monospace;
-    font-weight: 200;
     text-rendering: optimizeLegibility;
     overflow-x: hidden;
     
@@ -24,7 +23,8 @@ h4 {
 p {
     font-size: 16px;
     font-size: 16px;
-    line-height: 1.6;
+    line-height: 2;
+    font-weight: 300;
 }
 
 a {
@@ -34,6 +34,7 @@ a {
 
 h2 {
     font-size: 16px;
+    font-weight: 700;
     line-height: 1.5;
     letter-spacing: 2px;
 }
@@ -48,7 +49,7 @@ header {
 
 .logo {
     width: 84%;
-    padding-top: 20px;
+    padding-top: 16px;
     padding-bottom: 28px;
 }
 
