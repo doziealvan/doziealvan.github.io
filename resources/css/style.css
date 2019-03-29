@@ -39,8 +39,26 @@ h2 {
     letter-spacing: 2px;
 }
 
+@media only screen and (min-width: 768px) {
+    h2 {
+        font-size: 24px;
+    }
+}
+
 .container {
     margin: 16px;
+}
+
+@media only screen and (min-width: 768px) {
+    .container {
+        margin: 72px;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    .container {
+        margin: 78px 120px 120px 120px;
+    }
 }
 
 header {
@@ -51,6 +69,13 @@ header {
     width: 84%;
     padding-top: 16px;
     padding-bottom: 28px;
+}
+
+@media only screen and (min-width: 768px) {
+    .logo {
+        padding-top: 0;
+        padding-bottom: 72px;
+    }
 }
 
 .hero-image img {
@@ -64,9 +89,21 @@ header {
     margin-bottom: 16px;
 }
 
+@media only screen and (min-width: 1000px) {
+    .about-doziealvan {
+        margin: 24px 0 28px 0;
+    }
+}
+
 .about-doziealvan h2 {
     padding-top: 8px;
     padding-bottom: 20px;
+}
+
+@media only screen and (min-width: 768px) {
+    .about-doziealvan {
+        padding: 48px;
+    }
 }
 
 .twitter-logo {
@@ -92,10 +129,24 @@ header {
     }
 }
 
+@media only screen and (min-width: 768px) {
+    .twitter-logo img {
+        padding-top: 93px;
+        padding-bottom: 84px;
+    }
+}
+
+
 .instagram-logo {
     background-image: linear-gradient(to right,#ec0010, #9f05b8, #1d02c6);
     text-align: center;
     margin: 16px 0;
+}
+
+@media only screen and (min-width: 1000px) {
+    .instagram-logo {
+        margin: 28px 0;
+    }
 }
 
 .instagram-logo img {
@@ -118,6 +169,13 @@ header {
     grid-gap: 16px;
 }
 
+@media only screen and (min-width: 1000px) {
+    .small-social-cards {
+        grid-gap: 28px;
+        margin-bottom: 0;
+    }
+}
+
 .github-logo {
     background-color: #fff;
     text-align: center;
@@ -135,11 +193,15 @@ header {
 
 .social-cards-2 {
     background-color: #fff;
-    padding-top: 16px;
-    padding-right: 16px;
-    padding-left: 16px;
-    padding-bottom: 40px;
+    padding: 16px 16px 40px 16px;
     margin-bottom: 16px;
+}
+
+@media only screen and (min-width: 1000px) {
+    .social-cards-2 {
+        padding: 28px 28px 40px 28px;
+        margin-bottom: 0;
+    }
 }
 
 .usher-A img {
@@ -151,7 +213,8 @@ header {
 }
 
 .usher-A h2 {
-    padding: 16px;
+    padding: 24px 16px 16px 16px;
+    font-size: 16px !important;
 }
 
 .usher-A h4 {
@@ -165,10 +228,10 @@ header {
     margin-top: 40px;
     padding: 15px 32px 14px 32px;
     display: inline-block;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 26px;
     font-weight: 400;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     letter-spacing: 2px;
 }
 
@@ -183,9 +246,18 @@ header {
     padding: 28px 16px;
     margin-bottom: 16px;
 }
-.gmail p {
+
+@media only screen and (min-width: 768px) {
+    .gmail {
+        padding: 40px 16px;
+    }
+}
+
+.gmail a {
     font-size: 16px;
     color: #fff;
+    font-weight: 300;
+    letter-spacing: 2px;
 }
 
 .attributes p {
@@ -204,6 +276,42 @@ header {
     padding: 12px;
 }
 
+@media only screen and (min-width: 768px) {
+    .social-cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 16px;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    .social-cards {
+        grid-column-gap: 28px;
+        margin-bottom: 28px;
+    }
+
+    .gmail a {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .container {
+        width: 50vw;
+        margin: auto;
+    }
+
+    header {
+        padding-top: 78px;
+    }
+    .attributes {
+        padding-bottom: 72px;
+    }
+
+    .about-doziealvan {
+        padding: 72px;
+    }
+}
 
 
 
