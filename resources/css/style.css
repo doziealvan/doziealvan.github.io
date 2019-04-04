@@ -100,6 +100,11 @@ header {
     padding-bottom: 20px;
 }
 
+.about-doziealvan a {
+    text-decoration: underline;
+    color: #b8000c;
+}
+
 @media only screen and (min-width: 768px) {
     .about-doziealvan {
         padding: 48px;
@@ -111,10 +116,15 @@ header {
     background-color: #00abe8;
     text-align: center;
     transform: scale(1);
-    transition: transform 0.5s;
+    transition: transform 0.2s;
 }
-.twitter-logo:hover {
-    transform: scale(1.05);
+.twitter-logo:hover,
+.instagram-logo:hover,
+.linkedin-logo:hover,
+.github-logo:hover,
+.gmail-contact:hover {
+    transform: scale(1.02);
+    box-shadow: 8px 20px 40px 0px rgba(0, 0, 0, 0.3);
 }
 
 .twitter-logo img {
@@ -138,10 +148,14 @@ header {
 
 
 .instagram-logo {
+    width: 100%;
     background-image: linear-gradient(to right,#ec0010, #9f05b8, #1d02c6);
     text-align: center;
     margin: 16px 0;
+    transform: scale(1);
+    transition: transform 0.2s;
 }
+ 
 
 @media only screen and (min-width: 1000px) {
     .instagram-logo {
@@ -177,9 +191,13 @@ header {
 }
 
 .github-logo {
+    width: 100%;
     background-color: #fff;
     text-align: center;
+    transform: scale(1);
+    transition: transform 0.2s;
 }
+
 
 .github-logo img, .linkedin-logo img {
     width: 92%;
@@ -187,9 +205,13 @@ header {
 }
 
 .linkedin-logo {
+    width: 100%;
     background-color:#0071a1;
     text-align: center;
+    transform: scale(1);
+    transition: transform 0.2s;
 }
+
 
 .social-cards-2 {
     background-color: #fff;
@@ -226,13 +248,18 @@ header {
     color: #fff;
     border-radius: 138px;
     margin-top: 40px;
-    padding: 15px 32px 14px 32px;
+    padding: 12px 32px;
     display: inline-block;
     font-size: 16px;
     line-height: 26px;
     font-weight: 400;
     /* text-transform: uppercase; */
     letter-spacing: 2px;
+    transition: background-color 0.3s;
+}
+.usher-A a:hover {
+    background-color: #00a740;
+   
 }
 
 .spotify p {
@@ -240,24 +267,27 @@ header {
     color: #fff;
 }
 
-.gmail {
+
+.gmail-contact {
+    width: 100%;
     background-color: #0c0c0c;
     text-align: center;
-    padding: 28px 16px;
-    margin-bottom: 16px;
+    padding: 24px;
+    transform: scale(1);
+    transition: transform 0.2s;
+}
+
+
+.gmail-contact p {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 300;
 }
 
 @media only screen and (min-width: 768px) {
-    .gmail {
+    .gmail-contact {
         padding: 40px 16px;
     }
-}
-
-.gmail a {
-    font-size: 16px;
-    color: #fff;
-    font-weight: 300;
-    letter-spacing: 2px;
 }
 
 .attributes p {
@@ -282,6 +312,15 @@ header {
         grid-template-columns: 1fr 1fr;
         grid-column-gap: 16px;
     }
+
+
+    .gmail-contact p {
+        font-size: 24px;
+    }
+
+    .attributes {
+        margin: 12px;
+    }
 }
 
 @media only screen and (min-width: 1000px) {
@@ -290,7 +329,7 @@ header {
         margin-bottom: 28px;
     }
 
-    .gmail a {
+    .gmail-contact a {
         font-size: 18px;
     }
 }
